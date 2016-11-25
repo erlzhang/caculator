@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Simple Caculator</title>
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Simple Caculator</h1>
+			<dl>
+				<div class="cal">
+					<div class="small"></div>
+					<div class="big">0</div>
+				</div>
+			</dl>
+			<dl>
+				<li class="number" data-number="7">7</li>
+				<li class="number" data-number="8">8</li>
+				<li class="number" data-number="9">9</li>
+				<li class="action" data-action="except">/</li>
+			</dl>
+			<dl>
+				<li class="number" data-number="4">4</li>
+				<li class="number" data-number="5">5</li>
+				<li class="number" data-number="6">6</li>
+				<li class="action" data-action="mutiply">*</li>
+			</dl>
+			<dl>
+				<li class="number" data-number="1">1</li>
+				<li class="number" data-number="2">2</li>
+				<li class="number" data-number="3">3</li>
+				<li class="action" data-action="minus">-</li>
+			</dl>
+			<dl>
+				<li class="number" data-number="0" style="width:50%">0</li>
+				<li class="number" data-number=".">.</li>
+				<li class="action" data-action="plus">+</li>
+			</dl>
+			<dl>
+				<li id="back">←</li>
+				<li id="reset">C</li>
+				<li id="res" style="width:50%">=</li>
+			</dl>
+			<div class="clear"></div>
+			<div class="footer">© <a href="http://erl.im/">Erl</a></div>
+		</div>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="caculator.js"></script>
+	</body>
+</html>
